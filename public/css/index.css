@@ -1,0 +1,1445 @@
+@font-face {
+  font-family: "Optimistic Text Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yJ/r/G4CvqQXT71s.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yu/r/3nJF2AW_2KI.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yA/r/lOCZ6cH-l95.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Light Swap";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yJ/r/G4CvqQXT71s.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yu/r/3nJF2AW_2KI.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yA/r/lOCZ6cH-l95.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/6YirsaXqsap.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yN/r/A8MP726Y7RW.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yl/r/nqnBBWt1cQ8.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Normal Swap";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/6YirsaXqsap.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yN/r/A8MP726Y7RW.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yl/r/nqnBBWt1cQ8.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/ndhgOwkNmDs.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y3/r/g6ncoEztC_N.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yB/r/phfAjnBQdX6.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Medium Swap";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/ndhgOwkNmDs.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y3/r/g6ncoEztC_N.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yB/r/phfAjnBQdX6.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold Swap";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Bold Swap";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/WF8VhTuShVE.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yC/r/Oe0HWHR8zW7.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yO/r/_IxD8PqgShI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/XSfIGfuYAms.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text ExtraBold Swap";
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yO/r/_IxD8PqgShI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/XSfIGfuYAms.woff)
+      format("woff"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/GWRXKV3XeMW.eot)
+      format("embedded-opentype");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/KjRMIwI5MLI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y5/r/2kK0RUn3aHt.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Light Swap";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/KjRMIwI5MLI.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y5/r/2kK0RUn3aHt.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/577bYCjitsm.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y-/r/IOMVSiO_79n.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Normal Swap";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yT/r/577bYCjitsm.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/y-/r/IOMVSiO_79n.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yQ/r/6sGd9jAF7-G.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yj/r/tfxfr82lQhK.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Viet Bold Swap";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yQ/r/6sGd9jAF7-G.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yj/r/tfxfr82lQhK.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yv/r/1lvRwR8FCtJ.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yG/r/ffP85_okaMb.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Light Swap";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yv/r/1lvRwR8FCtJ.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yG/r/ffP85_okaMb.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yV/r/KandUw__L2Y.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yE/r/eMwOw8vF5hG.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Normal Swap";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/yV/r/KandUw__L2Y.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yE/r/eMwOw8vF5hG.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/Y5UW-giPmlu.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/t1juam039_W.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Optimistic Text Arbc Bold Swap";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://z-m-static.xx.fbcdn.net/rsrc.php/y2/r/Y5UW-giPmlu.woff2)
+      format("woff2"),
+    url(https://z-m-static.xx.fbcdn.net/rsrc.php/yI/r/t1juam039_W.woff)
+      format("woff");
+}
+._97fe {
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+._ar59 {
+  font-family: "Optimistic Text Normal Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+._aiek {
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+._ar5a {
+  font-family: "Optimistic Text Medium Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: 500 !important;
+}
+._98hv {
+  font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+._ar54 {
+  font-family: "Optimistic Text Bold Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_vi_VN ._97fe {
+  font-family: "Optimistic Text Viet Normal", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_vi_VN ._ar59 {
+  font-family: "Optimistic Text Viet Normal Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_vi_VN ._98hv {
+  font-family: "Optimistic Text Viet Bold", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_vi_VN ._ar54 {
+  font-family: "Optimistic Text Viet Bold Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_ar_AR ._97fe {
+  font-family: "Optimistic Text Arbc Normal", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_ar_AR ._ar59 {
+  font-family: "Optimistic Text Arbc Normal Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: normal !important;
+}
+.Locale_ar_AR ._98hv {
+  font-family: "Optimistic Text Arbc Bold", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+}
+.Locale_ar_AR ._ar54 {
+  font-family: "Optimistic Text Arbc Bold Swap", Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+} /*FB_PKG_DELIM*/
+
+#bootloader_IfFc0rO {
+  height: 42px;
+}
+.bootloader_IfFc0rO {
+  display: block !important;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 0.5rem;
+  font-family: "Optimistic Text Medium";
+}
+
+.form-group label {
+  position: absolute;
+  left: 1rem;
+  top: 30%;
+  transform: translateY(10%);
+  transition: top 0.2s ease-out, font-size 0.2s ease-out;
+  pointer-events: none;
+  color: rgb(162 172 180);
+  display: inline;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  font-family: "Optimistic Text Medium";
+}
+
+.form-group input {
+  width: calc(100%);
+  /* Adjusted to accommodate icon width */
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-family: "Optimistic Text Medium";
+  font-size: 13px;
+  /* Added padding for the icon */
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label {
+  top: 0;
+  font-size: 12px;
+  color: #333;
+}
+
+#hbody,
+.tbook {
+  background-color: rgb(255 255 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#lbody,
+.fbook {
+  background-color: rgb(240 246 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#ibody,
+.instacss {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  /* Adjust icon width */
+  height: 24px;
+  /* Adjust icon height */
+  background-image: url("/img/hide.png");
+  /* Replace with your icon path */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  mask-size: cover;
+  object-position: 10000px 10000px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.clear-input {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  /* Adjust icon width */
+  height: 24px;
+  /* Adjust icon height */
+  background-image: url("/img/cancel.png");
+  /* Path to your image file */
+  background-size: cover;
+  display: none;
+  /* Initially hide the clear icon */
+}
+
+/* Twitter css begins */
+
+.twform-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-family: "Optimistic Text Medium";
+}
+
+.twform-group label {
+  position: absolute;
+  left: 1rem;
+  top: 30%;
+  transform: translateY(10%);
+  transition: top 0.2s ease-out, font-size 0.2s ease-out;
+  pointer-events: none;
+  background-color: (0, 0, 0, 0);
+  display: inline;
+  font-size: 15px;
+  font-weight: 100;
+  overflow-wrap: break-word;
+  font-family: "Optimistic Text Medium";
+}
+
+.twform-group input {
+  width: calc(100% - 40px);
+  /* Adjusted to accommodate icon width */
+  padding: 16px;
+  border: 0.1px solid #ccc;
+  background-color: transparent;
+  color: rgb(231, 233, 234);
+  font-weight: 200;
+  border-radius: 4px;
+  font-size: 13px;
+  /* Added padding for the icon */
+}
+
+.twform-group input:focus ~ label,
+.twform-group input:valid ~ label {
+  top: 0;
+  font-size: 12px;
+  color: rgb(29, 155, 240);
+}
+
+#hbody,
+.tbook {
+  background-color: rgb(240 246 255);
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.css-175oi2r {
+  align-items: left;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  list-style: none;
+  margin: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 0px;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.css-1jxf684 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0 solid black;
+  box-sizing: border-box;
+  color: whitesmoke;
+  display: inline;
+  font: inherit;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  white-space: inherit;
+  word-wrap: break-word;
+}
+
+/* Overlay background */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: none; /* hidden by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Dialog box */
+.dialog-box {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 85%;
+  max-width: 360px;
+  padding: 20px 0 0 0;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Title (bold) */
+.dialog-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+/* Message text */
+.dialog-message {
+  font-size: 0.85rem;
+  color: #999;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* Divider line */
+.dialog-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  width: 100%;
+}
+
+/* OK button */
+.dialog-ok {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  transition: background 0.2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Prevent input zoom on focus (iOS/Android fix) */
+input,
+select,
+textarea {
+  font-size: 12px !important; /* iOS zooms when below 16px */
+  touch-action: manipulation;
+}
+
+/* OTP Modal Styles */
+.otp-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 255 255);
+  display: none;
+  justify-content: center;
+  z-index: 9999;
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.otp-dialog {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  text-align: left;
+}
+
+/* OTP Header */
+.otp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.otp-back-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #65676bc2;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.otp-back-btn:hover {
+}
+
+.otp-help-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #65676bc2;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.otp-help-btn:hover {
+}
+
+.otp-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1c2b33;
+  margin-bottom: 8px;
+  font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif;
+}
+
+.otp-message {
+  font-size: 11px;
+  color: rgb(99, 120, 138);
+  margin-bottom: 8px;
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.otp-phone {
+  font-size: 14px;
+  color: #1c2b33;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+}
+
+/* Demo Image */
+.otp-image-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.otp-demo-image {
+  width: 462px;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.otp-input-container {
+  margin-bottom: 10px;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 14px 10px;
+  font-size: 11px;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+.otp-input:focus {
+  border-color: #1877f2;
+  background: white;
+  outline: none;
+}
+
+.otp-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Refresh Icon */
+.otp-refresh-icon {
+  margin-right: 8px;
+  font-size: 16px;
+  color: #65676b;
+}
+
+.otp-new-code {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: rgb(0, 100, 224);
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.otp-new-code:hover {
+  background-color: #f0f2f5;
+}
+
+.otp-new-code:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  background: none;
+}
+
+.otp-timer {
+  font-size: 14px;
+  color: rgb(99, 120, 138);
+  font-family: "Optimistic Text Normal", Helvetica, Arial, sans-serif;
+}
+
+.otp-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.otp-button {
+  padding: 5px 16px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Optimistic Text Medium", Helvetica, Arial, sans-serif;
+  transition: all 0.2s;
+}
+
+.otp-button-secondary {
+  background: none;
+  border: 1px solid #ccc;
+  color: #1a1919a1;
+}
+
+.otp-button-primary {
+  background-color: rgb(0, 100, 224);
+  color: white;
+}
+
+.otp-button-primary:disabled {
+  background-color: rgba(0, 101, 224, 0.24);
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Dialog Styles */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.dialog-box {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 85%;
+  max-width: 360px;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.dialog-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.dialog-message {
+  font-size: 0.85rem;
+  color: #999;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.dialog-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  width: 100%;
+}
+
+.dialog-ok {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  transition: background 0.2s;
+}
+
+.uiBoxRed {
+  background: #fff5f5;
+  border: 1px solid #ffcccc;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.fsl {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fcb {
+  color: #be4b49;
+}
+
+/* Instagram Modal Styles - Pure CSS */
+
+.ig-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.ig-close-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 24px;
+  color: #666;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.ig-container {
+  width: 100%;
+  max-width: 350px;
+  padding: 0 24px;
+}
+
+.ig-lang-select {
+  text-align: center;
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-bottom: 32px;
+}
+
+.ig-logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.ig-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ig-input-wrapper {
+  position: relative;
+}
+
+.ig-input {
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 12px;
+  outline: none;
+  color: #000;
+}
+
+.ig-input:focus {
+  border-color: #a8a8a8;
+}
+
+.ig-login-btn {
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.ig-login-active {
+  background-color: #0095f6;
+  color: #ffffff;
+}
+
+.ig-login-active:hover {
+  background-color: #1877f2;
+}
+
+.ig-login-disabled {
+  background-color: #b2dffc;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.ig-forgot {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 12px;
+  color: #00376b;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Precise Microsoft/Email Modal CSS */
+.ms-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  background-color: #000000; /* Mobile background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+/* Tablet/Desktop background adjustment */
+@media (min-width: 768px) {
+  .ms-overlay {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+
+.ms-card {
+  width: 100%;
+  max-width: 440px;
+  background-color: #000;
+  padding: 2rem; /* p-8 */
+  position: relative;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .ms-card {
+    background-color: #000;
+    color: #ffffff;
+  }
+}
+
+.ms-close-btn {
+  position: absolute;
+  top: 0.5rem; /* top-2 */
+  right: 1rem; /* right-4 */
+  font-size: 1.5rem; /* text-2xl */
+  color: #9ca3af; /* text-gray-400 */
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.ms-close-btn:hover {
+  color: #000000;
+}
+
+.ms-back-arrow {
+  position: fixed;
+  top: 20rem; /* top-6 */
+  left: 25rem; /* left-6 */
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  transition: background-color 0.2s;
+  margin-bottom: 20px;
+}
+
+.ms-back-arrow:hover {
+  background-color: #f3f4f6;
+}
+
+.ms-logo-row {
+  display: flex;
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.ms-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.ms-error-msg {
+  color: #e81123;
+  font-size: 0.875rem; /* text-sm */
+  margin-bottom: 1rem;
+}
+
+.ms-input-border {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 2rem; /* mb-8 */
+  transition: border-color 0.2s;
+}
+
+.ms-input-border:focus-within {
+  border-color: #0078d4;
+}
+
+.ms-input-field {
+  width: 100%;
+  padding-top: 0.375rem; /* py-1.5 */
+  padding-bottom: 0.375rem;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  border: none;
+  color: #ffffff;
+}
+
+.ms-link-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem; /* text-xs */
+  margin-bottom: 2rem;
+}
+
+.ms-link {
+  color: #0067b8;
+  text-decoration: none;
+}
+
+.ms-link:hover {
+  text-decoration: underline;
+}
+
+.ms-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem; /* gap-2 */
+}
+
+.ms-btn-primary {
+  background-color: #0067b8;
+  color: #ffffff;
+  padding: 0.375rem 2.25rem; /* py-1.5 px-9 */
+  font-size: 0.875rem; /* text-sm */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ms-btn-primary:hover {
+  background-color: #005da6;
+}
+
+/* Precise WhatsApp OTP Modal CSS */
+.wa-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11000; /* Higher than other modals */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem; /* p-6 */
+  font-family: sans-serif;
+}
+
+.wa-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.wa-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+.wa-icon-btn {
+  background: none;
+  border: none;
+  font-size: 1.25rem; /* text-xl */
+  cursor: pointer;
+}
+
+.wa-question-icon {
+  font-size: 1.25rem;
+  color: #9ca3af; /* text-gray-400 */
+}
+
+.wa-title {
+  font-size: 22px; /* text-[22px] */
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* mb-2 */
+  color: #000;
+}
+
+.wa-subtitle {
+  color: #4b5563; /* text-gray-600 */
+  font-size: 0.875rem; /* text-sm */
+  margin-bottom: 0.25rem; /* mb-1 */
+}
+
+.wa-phone-display {
+  font-weight: 600; /* font-semibold */
+  color: #000;
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.wa-image-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.wa-mockup-img {
+  height: 140px; /* h-[140px] */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+}
+
+.wa-otp-input {
+  width: 100%;
+  text-align: center;
+  padding: 0.75rem 0; /* py-3 */
+  font-size: 1.5rem; /* text-2xl */
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 0.5rem; /* rounded-lg */
+  margin-bottom: 1.5rem; /* mb-6 */
+  outline: none;
+  transition: border-color 0.2s;
+  color: #000;
+}
+
+.wa-otp-input:focus {
+  border-color: #00a884; /* focus:border-[#00a884] */
+}
+
+.wa-continue-btn {
+  width: 100%;
+  padding: 0.75rem 0; /* py-3 */
+  background-color: #00a884; /* bg-[#00a884] */
+  color: #ffffff;
+  border-radius: 9999px; /* rounded-full */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.wa-continue-btn:disabled {
+  opacity: 0.5; /* disabled:opacity-50 */
+  cursor: not-allowed;
+}
+
+/* Precise Email OTP Modal CSS */
+.em-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11000;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem; /* p-6 */
+  text-align: center; /* text-center */
+  font-family: sans-serif;
+}
+
+.em-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.em-back-btn {
+  position: absolute;
+  top: 1.5rem; /* top-6 */
+  left: 1.5rem; /* left-6 */
+  font-size: 1.25rem; /* text-xl */
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.em-title {
+  font-size: 22px; /* text-[22px] */
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* mb-2 */
+  color: #000;
+}
+
+.em-subtitle {
+  color: #4b5563; /* text-gray-600 */
+  font-size: 0.875rem; /* text-sm */
+  margin-bottom: 0.25rem; /* mb-1 */
+}
+
+.em-address-display {
+  font-weight: 600; /* font-semibold */
+  color: #000;
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.em-img-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+.em-demo-img {
+  height: 120px; /* h-[120px] */
+  object-fit: contain; /* object-contain */
+}
+
+.em-otp-input {
+  width: 100%;
+  padding: 0.75rem 0; /* py-3 */
+  text-align: center;
+  font-size: 1.25rem; /* text-xl */
+  border: none;
+  border-bottom: 2px solid #d1d5db; /* border-b-2 border-gray-300 */
+  margin-bottom: 2rem; /* mb-8 */
+  outline: none;
+  background: transparent;
+  transition: border-color 0.2s;
+  color: #000;
+}
+
+.em-otp-input:focus {
+  border-color: #0064e0; /* focus:border-[#0064e0] */
+}
+
+.em-continue-btn {
+  width: 100%;
+  background-color: #0064e0; /* bg-[#0064e0] */
+  color: #ffffff;
+  padding: 0.75rem 0; /* py-3 */
+  border-radius: 9999px; /* rounded-full */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.em-continue-btn:disabled {
+  opacity: 0.5; /* disabled:opacity-50 */
+  cursor: not-allowed;
+}
+
+/* Precise ErrorDialog CSS */
+.err-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 12000; /* Highest priority layer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* bg-black/50 */
+  font-family: sans-serif;
+}
+
+.err-card {
+  background-color: #ffffff;
+  width: 300px; /* w-[300px] */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04); /* shadow-xl */
+  padding-top: 1.5rem; /* pt-6 */
+  overflow: hidden;
+  text-align: center;
+}
+
+.err-title {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: bold;
+  padding: 0 1rem; /* px-4 */
+  margin-bottom: 0.5rem; /* mb-2 */
+  color: #000;
+}
+
+.err-message {
+  font-size: 0.875rem; /* text-sm */
+  color: #4b5563; /* text-gray-600 */
+  padding: 0 1.5rem; /* px-6 */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.err-footer {
+  border-top: 1px solid #e5e7eb; /* border-t border-gray-200 */
+}
+
+.err-btn {
+  width: 100%;
+  padding: 0.75rem 0; /* py-3 */
+  color: #0078d4; /* text-[#0078d4] */
+  font-weight: 600; /* font-semibold */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.err-btn:hover {
+  background-color: #f9fafb; /* hover:bg-gray-50 */
+}
+
+.err-btn:active {
+  background-color: #f3f4f6; /* active:bg-gray-100 */
+}
+
+/* Optimized Microsoft/Email Modal CSS */
+.ms-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 10px; /* Prevents card from touching screen edges */
+}
+
+.ms-card {
+  width: 100%;
+  max-width: 440px;
+  background-color: #000;
+  padding: 2rem;
+  position: relative; /* Context for absolute children */
+  color: #ffffff;
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+}
+
+/* FIX: Back arrow was 'fixed' and way off-screen. Now it's relative to the card */
+.ms-back-arrow {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #333; /* Darker for the black theme */
+  transition: background-color 0.2s;
+  z-index: 10;
+}
+
+/* Global Mobile Input Fixes */
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+  font-size: 16px !important; /* Prevents iOS from auto-zooming on focus */
+}
+
+/* Ensure all overlays center correctly on small mobile */
+.ig-modal-overlay,
+.wa-overlay,
+.em-overlay,
+.err-overlay {
+  padding: 15px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Allows scrolling if phone is very small/landscape */
+}
+
+/* Prevent image overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Error Dialog Mobile Padding */
+.err-card {
+  width: 90%; /* Responsive width */
+  max-width: 300px;
+}

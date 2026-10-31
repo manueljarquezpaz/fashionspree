@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* 1. Define Theme Variables */
+@theme {
+  --font-sans: var(--font-poppins);
+  --font-brand: var(--font-vidaloka);
+}
+
+/* 2. Custom Keyframes (Standard CSS to avoid Node evaluation errors) */
+@keyframes dim {
+  from {
+    background-color: #952370;
+  }
+  to {
+    background-color: #4652b9;
+  }
+}
+
+/* 3. Component Classes */
+@layer components {
+  /* This replaces your #blue bar */
+  .legacy-blue-bar {
+    background-color: #4652b9;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+  }
+
+  .legacy-blue-bar h2 {
+    margin: 4px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  /* This replaces your #news p */
+  .news-paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    margin: 20px auto;
+    width: 90vw;
+    padding: 1px;
+  }
+
+  /* This replaces your #vote2 and animation */
+  .vote2-button {
+    background-color: #952370;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    height: 38px;
+    border-radius: 3px;
+    cursor: pointer;
+    animation: dim 2s infinite;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .vote2-button:active {
+    background-color: white !important;
+    color: #4652b9 !important;
+    font-weight: 800;
+    font-size: 20px;
+    width: 80%;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    animation: none;
+  }
+}
